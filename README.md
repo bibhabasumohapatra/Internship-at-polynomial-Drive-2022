@@ -12,10 +12,8 @@ https://www.kaggle.com/bibhabasumohapatra/amazon-dataset-csv-generator/notebook
 
 ## Step-2 Creating a classifier for the classification of Reviews into positive, negative, and neutral:
 
-I tried the ways I know . . . Lightgbm, XGBOOST, Catboost, 
-
-
-
+I tried the ways I know . . . Lightgbm, XGBOOST, Catboost, and tested with naive_bayes.  it worked great and lightgbm gave accuracy of 72 percent and what I did was simply use tf-idf and saved tf-idf and models in pkl and some in .bin files using joblib.
+I am very well equipped with regression models and I use advanced ensemble techniques but I kept deployement in mind, ensembling different folds and different models and stacking and boosting them  can be done but then seeding should have to be done and I had to deploy 10-20 models simultaneusly and have to work more on post-process,  ensembling with classification data is my field of play though I use a special method not for calculating probaities but to do average and weighted averge of different models not using softmax rather I use sklearn's predict_proba (my excelent work can be checked here https://www.kaggle.com/bibhabasumohapatra/multiclass-using-predict-proba-ensemble-part-2) again this was too difficult in case of deployement 
 
 
 
