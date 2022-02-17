@@ -4,7 +4,7 @@
 - [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/bibhabasumohapatra/polynomial_app/main/app_lgbm.py)
 ## Step-1 Reading and pre-processing of the dataset 
 Most difficult thing for me was to start at first, I already had a plan to use LSTM networks and wrote Dataset but everything came to Data at last. I was given a huge dataset massive 5 GB around thats also in json file, and lost hope to start with notebook,
-But evantually now I had a solution, to not only convert but also compress. I went to kaggle created a notebook uploaded the json(took time) then ran import json import csv
+But eventually now I had a solution, to not only convert but also compress. I went to kaggle created a notebook uploaded the json(took time) then ran import json import csv
 and in the same file droped unnecessary columns, clicked save run and now I am using the csv file only of 2 GB then to 1.7 GB
 https://www.kaggle.com/bibhabasumohapatra/amazon-dataset-csv-generator/data?select=PolynomialInternshipDrive2022.csv now, 
 My efforts can be seen in my kaggle Notebook.
