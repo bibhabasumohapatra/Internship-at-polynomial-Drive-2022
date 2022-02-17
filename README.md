@@ -20,9 +20,13 @@ as i said earlier I tried everything I knew , and one of the things I know well 
 though I tried with chunks and then as much as I can hold to mention my catboost and lightgbm with only NLTK and Tfidfvectorizer(which I understand) worked better than expected around 72 with first try was not best, given BERT may get this situations in one hand and hugging face pipelines may not require fine-tuning(Just joking! and I wont dare too show my bert try)
 - #### My attempts in this 24 hours journey is all in the ipynb-checkpoints folder in this repo itself.
 
+- How I managed the stars - 1,2,3,4,5  and problem statement asking for positive, neutral and negetive
 
-
-
+## Step-3 Create a Confusion matrix and support training and Testing metrics:
+- metric used was 
+   - sklearn.metrics.accuracy_score
+   - sklearn.metrics.confusion_matrix
+- loss function torch.nn.BCEWithLogitsLoss() but was not used in the deployement but it was worth learning or I say backpropagating.
 #### Images
 - LightbgmClf try 1 ==> Accuracy = 0.711375
 ![image](https://user-images.githubusercontent.com/68384968/154433253-dde76363-c653-4957-b0f2-8d154c506719.png)
@@ -32,4 +36,18 @@ though I tried with chunks and then as much as I can hold to mention my catboost
 
 - CatboostCLf try 1  Accuracy = 0.6687
 ![image](https://user-images.githubusercontent.com/68384968/154466568-d115de9e-65b7-4241-88f0-e8e9aa2427da.png)
+
+## Step-4 Deployment of the Model using some framework (Eg: Flask/ Django) on Heroku or any other service: 10 points as Bonus
+## https://share.streamlit.io/bibhabasumohapatra/polynomial_app/main/app_lgbm.py
+- I went with the other, these years I was too busy with PyTorch kaggle and Computer Vision never played with webpages as I did with writing neural networks and vision transformer with efficientNET
+- So what I used is Streamlit:  steps followed for inference were-
+   - saving the the model trained not to forget vectorizers trained,
+   - writing a input for python converting into dict then to pandas dataframe and try model.predict()
+   - then printed negative for 1, negative(marginally negative) for 2, neutral for 3, and positive for 4 and positive(very positive) for 5
+   - then ran a pipreqs command to run and it generated all the dependencies in requirement.txt
+   - converted the input outputs with streamlit commands and saved the file.
+   - now my folder has one inference py file with streamlit commands and requirement.txt and model pickle folder  and tfidf saved pickle
+   - created a new repository https://github.com/bibhabasumohapatra/polynomial_app  with all files in above point
+   - and deployed it on streamlit. *NOW ITS LIVE*
+   - https://share.streamlit.io/bibhabasumohapatra/polynomial_app/main/app_lgbm.py
 
