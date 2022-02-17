@@ -50,6 +50,9 @@ though I tried with chunks and then as much as I can hold to mention my catboost
 ## Step-4 Deployment of the Model using some framework (Eg: Flask/ Django) on Heroku or any other service: 10 points as Bonus
 ## [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/bibhabasumohapatra/polynomial_app/main/app_lgbm.py)
 - I went with the other, these years I was too busy with PyTorch kaggle and Computer Vision never played with webpages as I did with writing neural networks and vision transformer with efficientNET
+- ### Some sample Images 
+
+![2](https://user-images.githubusercontent.com/68384968/154529850-464e5604-5b40-476b-aaa3-fe4b57b2efab.png)![1](https://user-images.githubusercontent.com/68384968/154530035-6d58a58a-4bd5-4849-92eb-2bd2c5295828.png)
 - So what I used is Streamlit:  steps followed for inference were-
    - saving the the model trained not to forget vectorizers trained,
    - writing a input for python converting into dict then to pandas dataframe and try model.predict()
