@@ -7,7 +7,7 @@ and in the same file droped unnecessary columns, clicked save run and now I am u
 https://www.kaggle.com/bibhabasumohapatra/amazon-dataset-csv-generator/data?select=PolynomialInternshipDrive2022.csv now, https://www.youtube.com/watch?v=oreIJQZ40H0&t=636s
 My efforts can be seen in my kaggle Notebook.
 I have created a notebook in Kaggle named  _Amazon Dataset CSV generator_ now its public and the beest thing is I ran the code with optimizing changes again and again to get best out of my Next comming model training. *Then I Ran and Saved the The Notebook* and clicked on new notebook and added data from selecting *Add data from your Notebooks' output file*
-
+https://www.kaggle.com/bibhabasumohapatra/amazon-dataset-csv-generator/notebook
 
 
 
