@@ -27,3 +27,6 @@ I tried the ways I know . . . Lightgbm, XGBOOST, Catboost,
 
 - LightbgmClf try 2 Accuracy = 0.6709
 ![image](https://user-images.githubusercontent.com/68384968/154436053-222d9048-36a7-472a-af3d-ffa5d0ea61bd.png)
+
+- CatboostCLf try 1  Accuracy = 0.6687
+![image](https://user-images.githubusercontent.com/68384968/154466568-d115de9e-65b7-4241-88f0-e8e9aa2427da.png)
