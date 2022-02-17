@@ -62,6 +62,6 @@ though I tried with chunks and then as much as I can hold to mention my catboost
    - converted the input outputs with streamlit commands and saved the file.
    - now my folder has one inference py file with streamlit commands and requirement.txt and model pickle folder  and tfidf saved pickle
    - created a new repository https://github.com/bibhabasumohapatra/polynomial_app  with all files in above point
-   - and deployed it on streamlit. *NOW ITS LIVE*
+   - and deployed it on streamlit. *NOW ITS LIVE* works on mobile phone too.
    - https://share.streamlit.io/bibhabasumohapatra/polynomial_app/main/app_lgbm.py
 
