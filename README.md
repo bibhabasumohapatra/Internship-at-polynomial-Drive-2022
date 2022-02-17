@@ -1,5 +1,7 @@
 # Internship-at-polynomial-Drive-2022
 
+#### try here:
+- #### https://share.streamlit.io/bibhabasumohapatra/polynomial_app/main/app_lgbm.py
 ## Step-1 Reading and pre-processing of the dataset 
 Most difficult thing for me was to start at first, I already had a plan to use LSTM networks and wrote Dataset but everything came to Data at last. I was given a huge dataset massive 5 GB around thats also in json file, and lost hope to start with notebook,
 But evantually now I had a solution, to not only convert but also compress. I went to kaggle created a notebook uploaded the json(took time) then ran import json import csv
@@ -20,7 +22,15 @@ as i said earlier I tried everything I knew , and one of the things I know well 
 though I tried with chunks and then as much as I can hold to mention my catboost and lightgbm with only NLTK and Tfidfvectorizer(which I understand) worked better than expected around 72 with first try was not best, given BERT may get this situations in one hand and hugging face pipelines may not require fine-tuning(Just joking! and I wont dare too show my bert try)
 - #### My attempts in this 24 hours journey is all in the ipynb-checkpoints folder in this repo itself.
 
-- How I managed the stars - 1,2,3,4,5  and problem statement asking for positive, neutral and negetive
+- How I managed the stars - 1,2,3,4,5  and problem statement asking for positive, neutral and negetive be inferred
+  - In my opinion why to waste data if some thing greater is to be achived which is more information about the data with not a difference of huge cost.
+  - yes, it may tamper accuracy to 5-10 percentage, but I had to choose better accuracy versus better information that is if you process the 'overall' named column to 3 labels like positive(overall == 5 and 4), neutral(overall == 3) and negative(overall == 1 and 2) , in my opinion by doing this we camouflage the real datas existence for the reviewer.
+  - what I did was
+    - took data as it is. 5 classes 1,2,3,4 and 5
+    - classified it as 5 classes
+    - and to acknowledge the requirement of positive, negetive and neutral review, I used 5 classes as best as I can. I didn't simply write positive(4,5), neutral(3) and negetive(1,2)
+    - I placed 1 -> 'negetive' ,2 -> 'negetive(marginally negetive)', 3 -> 'neutral', 4 -> 'positive' and 5 -> 'positive(very positive)'
+   
 
 ## Step-3 Create a Confusion matrix and support training and Testing metrics:
 - metric used was 
