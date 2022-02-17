@@ -1,7 +1,7 @@
 # Internship-at-polynomial-Drive-2022
 
 #### try here:
-- #### https://share.streamlit.io/bibhabasumohapatra/polynomial_app/main/app_lgbm.py
+- [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/bibhabasumohapatra/polynomial_app/main/app_lgbm.py)
 ## Step-1 Reading and pre-processing of the dataset 
 Most difficult thing for me was to start at first, I already had a plan to use LSTM networks and wrote Dataset but everything came to Data at last. I was given a huge dataset massive 5 GB around thats also in json file, and lost hope to start with notebook,
 But evantually now I had a solution, to not only convert but also compress. I went to kaggle created a notebook uploaded the json(took time) then ran import json import csv
@@ -48,7 +48,7 @@ though I tried with chunks and then as much as I can hold to mention my catboost
 ![image](https://user-images.githubusercontent.com/68384968/154466568-d115de9e-65b7-4241-88f0-e8e9aa2427da.png)
 
 ## Step-4 Deployment of the Model using some framework (Eg: Flask/ Django) on Heroku or any other service: 10 points as Bonus
-## https://share.streamlit.io/bibhabasumohapatra/polynomial_app/main/app_lgbm.py
+## [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/bibhabasumohapatra/polynomial_app/main/app_lgbm.py)
 - I went with the other, these years I was too busy with PyTorch kaggle and Computer Vision never played with webpages as I did with writing neural networks and vision transformer with efficientNET
 - So what I used is Streamlit:  steps followed for inference were-
    - saving the the model trained not to forget vectorizers trained,
