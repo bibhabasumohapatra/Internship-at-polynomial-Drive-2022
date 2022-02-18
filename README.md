@@ -37,7 +37,7 @@ though I tried with chunks and then as much as I can hold to mention my catboost
 - metric used was 
    - sklearn.metrics.accuracy_score
    - sklearn.metrics.confusion_matrix
-- loss function torch.nn.BCEWithLogitsLoss() but was not used in the deployement but it was worth learning or I say backpropagating.
+- loss function torch.nn. nn.CrossEntropyLoss() but was not used in the deployement but it was worth learning or I say backpropagating.
 #### Images
 - LightbgmClf try 1 ==> Accuracy = 0.711375
 ![image](https://user-images.githubusercontent.com/68384968/154433253-dde76363-c653-4957-b0f2-8d154c506719.png)
