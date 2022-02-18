@@ -26,6 +26,7 @@ class LSTM(nn.Module):
         batch_first=True,
         )
         self.out = nn.Linear(512, 1)
+        self.softmax = nn.Softmax(dim=1)
     
     def forward(self, x):
         x = self.embedding(x)
@@ -34,4 +35,5 @@ class LSTM(nn.Module):
         max_pool, _ = torch.max(x, 1)
         out = torch.cat((avg_pool, max_pool), 1)
         out = self.out(out)
+        out = self.softmax(out)
         return out
