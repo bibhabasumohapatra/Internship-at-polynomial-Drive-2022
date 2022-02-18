@@ -11,7 +11,8 @@ My efforts can be seen in my kaggle Notebook.
 I have created a notebook in Kaggle named  _Amazon Dataset CSV generator_ now its public and the best thing is I ran the code with optimizing changes again and again to get best out of my Next comming model training. *Then I Ran and Saved the The Notebook* and clicked on new notebook and added data from selecting *Add data from your Notebooks' output file*
 https://www.kaggle.com/bibhabasumohapatra/amazon-dataset-csv-generator/notebook
 
-
+- I added another approach to my arsenal and THAT IS UNDERSAMPLING as data is too huge I am also trying to get equal number of outputs for every class for that I am dividing it into 5 csv files each of 1,2,3,4,and 5.   1->1161992 2->558228 3->742666 4->1297163 5 ->4927978
+(if it works then I will update my models and weights)
 ## Step-2 Creating a classifier for the classification of Reviews into positive, negative, and neutral:
 
 I tried the ways I know . . . Lightgbm, XGBOOST, Catboost, and tested with naive_bayes.  it worked great and lightgbm gave accuracy of 72 percent and what I did was simply use tf-idf and saved tf-idf and models in pkl and some in .bin files using joblib.
