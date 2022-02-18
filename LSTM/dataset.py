@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-class IMDBdataset(torch.utils.data.Dataset):
+class Amazondataset(torch.utils.data.Dataset):
     def __init__(self, reviews, targets):
         self.reviews = reviews
         self.target = targets
