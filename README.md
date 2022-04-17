@@ -1,4 +1,4 @@
-# Internship-at-polynomial-Drive-2022
+# amazon-large-dataset
 
 #### try here:
 - [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/bibhabasumohapatra/polynomial_app/main/app_lgbm.py)
